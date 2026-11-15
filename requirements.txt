@@ -3,3 +3,4 @@ pandas
 quantstats
 openpyxl
 jupyterlab
+pytest
