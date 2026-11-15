@@ -1,5 +1,7 @@
 # Portfolio Metrics with QuantStats
 
+[![CI](https://github.com/Avinash186200/portfolio-metrics-quantstats/actions/workflows/ci.yml/badge.svg)](https://github.com/Avinash186200/portfolio-metrics-quantstats/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.11-blue) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 When I had a few dozen trading strategies to choose from, I needed two things for each: how it performed on its own, and how much it overlapped with the others. This notebook does both from a trade log, with QuantStats doing the metric work.
 
 ## What it does
@@ -37,3 +39,12 @@ Outputs go to `data/outputs/` (git-ignored); set `DATA_DIR` to change that. To u
 ## Status
 
 Complete as a small utility notebook. The numbers it prints come from synthetic data and describe nothing real.
+
+## Original research code
+
+[`original/`](original/README.md) holds the code as I first wrote it for this work, sanitised and nothing else:
+client, company and person names replaced, credentials and local paths removed, data files and notebook outputs
+dropped. It is kept so the real work can be read alongside the maintained version. Some of it contains the issues
+described above; comparing the two shows each fix.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) and the [CHANGELOG](CHANGELOG.md).
